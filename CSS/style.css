@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../Assets/Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+
+
+
+/* RESET DA PAGINA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout_grid {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    /* border: 1px solid red; */
+
+}
+
+/* DESKTOP FIRST */
+
+
+header {
+
+    height: 85px;
+    width: 100%;
+
+}
+
+header .header_flex {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 1070px;
+}
+
+header .nav_flex {
+    display: flex;
+    justify-content: space-between;
+    width: 395px;
+}
+
+header nav a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    font-size: 19px;
+    font-family: "Poppins";
+    color: #201849;
+}   
+
+header #button_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 45px;
+    width: 115px;
+    background-color: #B51D44;
+}
+
+header span {
+
+    font-family: "Poppins";
+    color: white;
+}
+
+/* MAIN */
+#banner {
+
+    height: 719px;
+    width: 100%;
+    background-image: url(../Assets/Images/Banner_vermelho_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: red; */
+}
